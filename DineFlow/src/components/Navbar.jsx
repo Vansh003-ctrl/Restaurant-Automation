@@ -1,17 +1,23 @@
-import { useState } from 'react';
-import { Menu, X, UtensilsCrossed } from 'lucide-react';
-import '../style/Navbar.css';
+import { useState } from "react";
+import { Menu, X, UtensilsCrossed, ShoppingCart } from "lucide-react";
+import "../style/Navbar.css";
+import { GiShoppingCart } from "react-icons/gi";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   const navItems = [
-    { name: 'Home', href: '#home' },
-    { name: 'Menu', href: '#menu' },
-    { name: 'Order', href: '#order' },
+    { name: "Home", href: "#home" },
+    { name: "Menu", href: "#menu" },
+    { name: "Order", href: "#order" },
     { name: 'Contact', href: '#contact' },
-    { name: 'Kitchen', href: '#kitchen' },
-    { name: 'Admin', href: '#admin' }
+    // { name: 'Kitchen', href: '#kitchen' },
+    // { name: "Admin", href: "#admin" },
+    {
+      name: "",
+      href: "#cart",
+      icon: <GiShoppingCart size={28} strokeWidth={6} />,
+    },
   ];
 
   return (
@@ -29,8 +35,12 @@ export default function Navbar() {
           {/* Desktop Navigation */}
           <div className="navbar-menu">
             {navItems.map((item) => (
-              <a key={item.name} href={item.href} className="nav-link">
-                {item.name}
+              <a
+                key={item.href}
+                href={item.href}
+                className="nav-link flex items-center gap-2"
+              >
+                {item.icon ? item.icon : item.name}
               </a>
             ))}
           </div>
