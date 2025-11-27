@@ -14,7 +14,7 @@ export default function Footer() {
     { name: 'Privacy Policy', href: '#privacy' }
   ];
 
-  const servicesLinks = [
+  const   servicesLinks = [
     { name: 'Online Ordering', href: '#ordering' },
     { name: 'Table Booking', href: '#booking' },
     { name: 'Catering', href: '#catering' }
@@ -96,6 +96,9 @@ export default function Footer() {
                 </li>
               ))}
             </ul>
+          </div>
+          <div >
+            
           </div>
         </div>
 

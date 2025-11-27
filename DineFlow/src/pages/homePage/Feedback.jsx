@@ -1,7 +1,7 @@
 import React from "react";
-import "../../styles/Feedback.css";
+import "../../style/Feedback.css";
 
-export default function Feedback() {
+ const Feedback = () => {
   const testimonials = [
     {
       id: 1,
@@ -34,7 +34,8 @@ export default function Feedback() {
       .join("");
 
   return (
-    <section className="feedback-section">
+    <section className="feedback-section" >
+      
       <h2 className="feedback-heading">What Our Diners Say</h2>
 
       <div className="feedback-grid">
@@ -59,6 +60,8 @@ export default function Feedback() {
           </div>
         ))}
       </div>
+    
     </section>
   );
 }
+export default Feedback
