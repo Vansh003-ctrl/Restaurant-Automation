@@ -3,12 +3,12 @@ import "./Hero.css";
 
 const Hero = () => {
     return (
-        <section className="hero">
+        <section className="hero" >
             {/* Layer 1 overlay */}
             <div className="overlay"></div>
 
             {/* Content */}
-            <div className="hero-content">
+            <div className="hero-content" >
                 <h1>
                     Savor the Moment,
                     <br />

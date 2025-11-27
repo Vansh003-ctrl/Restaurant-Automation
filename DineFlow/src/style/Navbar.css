@@ -6,7 +6,7 @@
   right: 0;
   width: 100%;
   background-color: white;
-  border-bottom: 2px solid #c7d2fe;
+  /* border-bottom: 2px solid #c7d2fe; */
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   z-index: 9999;
 }
@@ -23,7 +23,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 4rem;
+  height: 6rem;
 
 }
 
@@ -45,13 +45,13 @@
 }
 
 .logo-icon .icon {
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 1.9rem;
+  height: 1.9rem;
   color: white;
 }
 
 .logo-text {
-  font-size: 1.5rem;
+  font-size: 1.9rem;
   font-weight: bold;
   color: #6366f1;
   white-space: nowrap;
@@ -60,7 +60,7 @@
 /* Desktop Navigation */
 .navbar-menu {
   display: none;
-  gap: 2rem;
+  gap: 4rem;
   align-items: center;
 
 }
@@ -68,6 +68,7 @@
 .nav-link {
   color: #111;
   font-weight: 500;
+  font-size: 1.5rem;
   text-decoration: none;
   transition: color 0.2s ease;
   white-space: nowrap;
@@ -100,8 +101,8 @@
 }
 
 .menu-toggle .icon {
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 2.4rem;
+  height: 2.4rem;
 }
 
 /* Mobile Navigation */
@@ -131,6 +132,7 @@
 .mobile-nav-link {
   color: #374151;
   font-weight: 500;
+  font-size: 1.3rem;
   text-decoration: none;
   padding: 0.75rem 1rem;
   border-radius: 0.5rem;
@@ -142,6 +144,7 @@
   color: #6366f1;
   background-color: #eef2ff;
 }
+
 
 /* Small Mobile Styles */
 @media (max-width: 480px) {
@@ -196,12 +199,12 @@
 /* Large Desktop Styles */
 @media (min-width: 1024px) {
   .navbar-menu {
-    gap: 2.5rem;
+    gap: 4rem;
   }
 }
 
 @media (min-width: 1280px) {
   .navbar-menu {
-    gap: 3rem;
+    gap: 5rem;
   }
 }

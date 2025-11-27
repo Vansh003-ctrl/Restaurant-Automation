@@ -12,8 +12,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
-    background-image: url("C:/Users/sumit/Downloads/bg image.png");
+    /* background-image: url("../assets/bgImage.png"); */
+    background-color: #000;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -35,6 +35,7 @@
     max-width: 80vw;
     color: #fff;
     padding: 2rem;
+
 }
 
 .hero-content h1 {
