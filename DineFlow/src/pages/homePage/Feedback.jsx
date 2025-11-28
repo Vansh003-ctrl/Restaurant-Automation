@@ -1,5 +1,5 @@
 import React from "react";
-import "../../style/Feedback.css";
+import "../../style/homePage/Feedback.css";
 
  const Feedback = () => {
   const testimonials = [
