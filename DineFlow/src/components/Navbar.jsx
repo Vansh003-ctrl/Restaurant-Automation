@@ -11,8 +11,8 @@ export default function Navbar() {
     { name: "Menu", href: "#menu" },
     { name: "Order", href: "#order" },
     { name: 'Contact', href: '#contact' },
-    // { name: 'Kitchen', href: '#kitchen' },
-    // { name: "Admin", href: "#admin" },
+    { name: 'Kitchen', href: '#kitchen' },
+    { name: "Admin", href: "#admin" },
     {
       name: "",
       href: "#cart",

@@ -39,7 +39,7 @@ export default function Footer() {
               </div>
               <span className="logo-text">DineFlow</span>
             </div>
-            <p className="footer-description">
+            <p className="footer-description semi-bold">
               Modernizing restaurant operations with digital solutions.
             </p>
             <div className="social-links">
